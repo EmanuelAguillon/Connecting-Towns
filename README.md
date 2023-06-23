@@ -1,1 +1,5 @@
-# Connecting-Towns
+En este problema, tenemos un mapa con varias ciudades conectadas por una serie de carreteras. La cantidad de carreteras entre cada par de ciudades se representa mediante un arreglo, donde el primer valor en el arreglo es la cantidad de carreteras desde la ciudad 1 hasta la ciudad 2, el segundo valor es la cantidad de carreteras desde la ciudad 2 hasta la ciudad 3, y así sucesivamente.
+
+El objetivo es determinar cuántas rutas existen desde la ciudad 1 hasta la última ciudad en la lista, tomando en cuenta las restricciones de las carreteras. Se debe calcular este número de rutas para cada caso de prueba.
+
+leera un número x que indica la cantidad de casos de prueba a evaluar. Luego, en cada caso de prueba, lee un número cantidad_numeros que representa la cantidad de números a seguir. A continuación, lee cantidad_numeros - 1 números y calcula el producto de todos ellos, aplicando el módulo 1234567 en cada multiplicación. Finalmente, imprime el resultado de cada caso de prueba. En resumen, el programa calcula y muestra el producto de una serie de números, aplicando el módulo 1234567 en cada operación de multiplicación.
