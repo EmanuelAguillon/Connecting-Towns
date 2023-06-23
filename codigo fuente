@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int x;
+    scanf("%d", &x);
+    
+    int numero_casos = 1;
+    while (numero_casos <= x) {
+        int cantidad_numeros;
+        scanf("%d", &cantidad_numeros);
+        
+        int resultado= 1;
+        int i = 1;
+        while (i < cantidad_numeros) {
+            int numero;
+            scanf("%d", &numero);
+            resultado = (numero * resultado) % 1234567;
+            i++;
+        }
+        
+        printf("%d\n", resultado);
+        
+        numero_casos++;
+    }
+    
+    return 0;
+}
